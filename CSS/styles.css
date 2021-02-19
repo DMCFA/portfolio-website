@@ -5,5 +5,8 @@
 }
 
 body {
-    background: #b0abeb;
+    min-height: 100vh;
+    background: linear-gradient(#b0abeb, white);
+    /* background-image: url(../images/bg.jpg); */
+    font-family: 'Lora', serif;
 }
