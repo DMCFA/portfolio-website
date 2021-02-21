@@ -11,8 +11,14 @@ body {
 
 .welcome {
     min-height: calc(100vh-1rem);
-    background: url(../images/welcome-bg.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: url(../images/welcome-bg.jpg);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav-container {
@@ -55,3 +61,10 @@ p {
     margin-top: 10px;
     color: rgb(156, 119, 73);
 }
+
+@media screen and (max-width: 1024px) { 
+    .welcome {
+      left: 50%;
+      margin-left: -512px;  
+    }
+  }
