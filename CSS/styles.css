@@ -12,27 +12,6 @@ body {
     font-family: 'Lora', serif;
 }
 
-.nav-container {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.nav-home {
-    flex: auto;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 3rem;
-}
-
-.right-nav-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-}
 
 /*WELCOME*/
 
