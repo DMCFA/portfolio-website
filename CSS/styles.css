@@ -12,6 +12,14 @@ body {
     font-family: 'Lora', serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #5D4954;
+    font-family: 'Poppins', sans-serif;
+}
 
 /*WELCOME*/
 
