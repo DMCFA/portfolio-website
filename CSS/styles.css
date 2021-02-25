@@ -21,9 +21,16 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
 /*WELCOME*/
 
 .bg-img {
-    min-height: 100vh;
-    background: #D0E4F5 url("../images/welcome-bg.jpg") no-repeat fixed 0px 0px;
+    /* min-height: 100vh;
+    background: #D0E4F5 url("../images/welcome-bg.jpg") no-repeat fixed 0px 0px; */
 }
