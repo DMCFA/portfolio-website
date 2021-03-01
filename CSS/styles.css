@@ -17,7 +17,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background: #5D4954;
+    background: #2f4f5c;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -63,15 +63,20 @@ nav {
 /*WELCOME*/
 
 #welcome {
-    min-height: 92vh;
-    background-color:#D0E4F5;
+    min-height: calc(100vh-8vh);
 }
 
-.bg-img {
-    /* min-height: 100vh;
-    background: #D0E4F5 url("../images/welcome-bg.jpg") no-repeat fixed 0px 0px; */
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    
 }
 
+
+/*MEDIA QUERY*/
 
 @media screen and (max-width: 1024px){
     .nav-links {
