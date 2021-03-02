@@ -66,10 +66,7 @@ nav {
 .welcome-bg {
     min-height: 92vh;
     background-color: azure;
-    background-image: url(/images/D.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 52%;
+    opacity: 0.8;
     position: relative;
 }
 
@@ -80,6 +77,19 @@ h1 {
     position: absolute;
     top: 30%;
     left: 38%;
+}
+
+.main-picture {
+    min-height: 40vh;
+    min-width: 15vh;
+    background-image: url(/images/D.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding-bottom: 17rem;
+    border: 5rem;
+    border-radius: 50%;
+    border: black solid;
 }
 
 .sub-header {
