@@ -66,6 +66,10 @@ nav {
 .welcome-bg {
     min-height: 92vh;
     background-color: azure;
+    background-image: url(/images/D.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 52%;
     position: relative;
 }
 
@@ -83,7 +87,7 @@ h1 {
     letter-spacing: 0.2rem;
     position: absolute;
     top: 30%;
-    left: 32%;
+    left: 45%;
     margin-top: 8%;
 
 }
