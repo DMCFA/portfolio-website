@@ -101,25 +101,22 @@ h1 {
 
 .about-me {
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: flex-end;
 }
 
 .about-title {
-    position: absolute;
-    top: 15vh;
-    right: 50vh;
+
 }
 
 .sub-title {
-    position: absolute;
-    top: 25vh;
-    right: 37vh;
+
 }
 
 .about-text {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.9rem;
+    font-size: 18px;
 }
 
 /*MEDIA QUERY*/
