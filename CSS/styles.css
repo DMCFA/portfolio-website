@@ -11,6 +11,7 @@ html {
 
 body {
     font-family: 'Lora', serif;
+    background-color: azure;
 }
 
 nav {
@@ -65,7 +66,6 @@ nav {
 
 .welcome-bg {
     min-height: 92vh;
-    background-color: azure;
     opacity: 0.8;
     position: relative;
 }
@@ -80,16 +80,11 @@ h1 {
 }
 
 .main-picture {
-    min-height: 40vh;
-    min-width: 15vh;
-    background-image: url(/images/D.png);
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: 30%;
-    padding-bottom: 17rem;
-    border: 5rem;
+    position: absolute;
+    top: 15%;
+    right: 75%;
+    border: 2rem;
     border-radius: 50%;
-    border: black solid;
 }
 
 .sub-header {
@@ -102,6 +97,30 @@ h1 {
 
 }
 
+/* ABOUT */
+
+.about-me {
+    min-height: 100vh;
+    position: relative;
+}
+
+.about-title {
+    position: absolute;
+    top: 15vh;
+    right: 50vh;
+}
+
+.sub-title {
+    position: absolute;
+    top: 25vh;
+    right: 37vh;
+}
+
+.about-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
 
 /*MEDIA QUERY*/
 
