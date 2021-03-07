@@ -71,71 +71,106 @@ nav {
 }
 
 h1 {
+    color: #273e47;
+    opacity: 1;
     font-family: sans-serif;
-    font-size: 2.8rem;
-    font-weight: bold;
+    font-size: 3.6rem;
+    font-weight: bolder;
     letter-spacing: 0.3rem;
     position: absolute;
+    top: 26%;
+    left: 17%;
+}
+
+.sub-header {
+    color: #273e47;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
     top: 30%;
-    left: 45%;
+    left: 20%;
+    margin-top: 8%;
+    padding: 50px;
 }
 
 .main-picture {
     position: absolute;
     top: 18%;
-    right: 70%;
+    right: 20%;
     border: 2rem;
 }
 
 .welcome-pic {
-    border-radius: 30%;
+    width: 730px;
+    height: auto;
+    border-radius: 15%;
 }
 
-.sub-header {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    position: absolute;
-    top: 30%;
-    left: 52%;
-    margin-top: 8%;
-
-}
 
 /* ABOUT */
 
-.about-me {
+#about {
     min-height: 100vh;
+}
+
+.about-picture {
+    max-width: auto;
+    height: auto;
+    opacity: 0.9;
+    position: relative;
+}
+    
+.about-pic {
+    max-width: 30%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    margin: 20px;
+}
+
+.about-me {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
 }
 
 .about-title {
-    margin-right: 15%;
+    color: #273e47;
+    margin-right: 14%;
     font-family: sans-serif;
     font-size: 2.8rem;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.3rem;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .sub-title {
-    margin-right: 15%;
-    margin-top: 5%;
+    color: #273e47;
+    margin-right: 13%;
+    margin-top: 7%;
     font-size: 1rem;
+    font-weight: 600;
     letter-spacing: 0.2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .about-text {
+    color: #273e47;
     margin-right: 4%;
-    margin-left: 55%;
-    margin-top: 3%;
+    margin-left: 40%;
+    margin-top: 2%;
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: left;
 }
+
+/* .about-picture {
+    max-width: 40%;
+    height: auto;
+    position: relative;
+} */
+
 
 /*MEDIA QUERY*/
 
