@@ -124,6 +124,7 @@ h1 {
     margin-top: 5%;
     font-size: 1rem;
     letter-spacing: 0.2rem;
+    text-align: center;
 }
 
 .about-text {
@@ -133,10 +134,12 @@ h1 {
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
-    text-align: right;
+    text-align: center;
 }
 
 /*MEDIA QUERY*/
+
+/* NAV BAR */
 
 @media screen and (max-width: 1024px){
     .nav-links {
@@ -153,7 +156,7 @@ h1 {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background: #5D4954;
+        background: #2f4f5c;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -194,3 +197,23 @@ h1 {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* WELCOME PAGE */
+
+@media screen and (max-width: 768px){
+    .main-picture {
+        display: none;
+    }
+
+    .welcome-bg {
+        display: block;
+    }
+
+    h1 {
+        display: block;
+        margin: auto;
+        align-content: center;
+        text-align: center;
+        color: red;
+    }
+};
