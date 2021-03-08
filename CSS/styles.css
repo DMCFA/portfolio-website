@@ -196,16 +196,16 @@ h1 {
     margin: 25px;
 }
 
-.apartment {
+.django {
+    vertical-align: middle;
+}
+
+.selenium {
     background-image: url("/images/projects/apartment-hunt.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
-    justify-content: center;
-}
-
-.apartment a {
     text-decoration: none;
     color: #2f4f5c;
     font-family: 'Poppins', sans-serif;
