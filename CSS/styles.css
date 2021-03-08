@@ -224,7 +224,7 @@ h1 {
 
 @media screen and (max-width: 768px){
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .nav-links {
         position: absolute;
@@ -238,6 +238,7 @@ h1 {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        z-index: 9999;
     }
     .nav-links li {
         opacity: 0;
