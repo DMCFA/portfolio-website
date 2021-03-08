@@ -280,15 +280,16 @@ h1 {
         display: none;
     }
 
-    .welcome-bg {
-        display: block;
+    .welcome-bg h1 {
+        left: 25%;
+        right: 25%;
+        top: 28%;
+        padding: 40px 0px;
+        font-size: 50px;
+        font-weight: 700;
     }
 
-    h1 {
-        display: block;
-        margin: auto;
-        align-content: center;
-        text-align: center;
-        color: red;
+    .sub-header {
+        top: 35%;
     }
 };
