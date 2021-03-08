@@ -276,7 +276,26 @@ h1 {
 
 /* WELCOME PAGE */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1350px){
+    h1 {
+        left: 4%;
+    }
+
+    .sub-header {
+        left: 2%;
+    }
+
+    .main-picture {
+        top: 25%;
+        right: 10%;
+    }
+
+    .welcome-pic {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 840px){
     .main-picture {
         display: none;
     }
@@ -285,12 +304,13 @@ h1 {
         left: 25%;
         right: 25%;
         top: 28%;
-        padding: 40px 0px;
+        padding: 45px 0px;
         font-size: 50px;
         font-weight: 700;
     }
 
     .sub-header {
         top: 35%;
+        left: 21%;
     }
 };
