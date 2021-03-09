@@ -309,7 +309,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 900px){
     .main-picture {
         display: none;
     }
@@ -327,4 +327,39 @@ h1 {
         top: 35%;
         left: 21%;
     }
+
+
+/*ABOUT SECTION*/
+
+    .about-picture {
+        display: none;
+    }
+
+    .about-me {
+        align-items: center;
+    }
+
+    .about-title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .sub-title {
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .about-box {
+        padding-top: 50px;
+        width: 300px;
+    }
+
+    .about-text {
+        font-size: 12px;
+        margin: auto;
+        text-align: left;
+        text-align-last: left;
+    }
+
 };
