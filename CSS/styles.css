@@ -212,6 +212,20 @@ h1 {
     font-size: 22px;
 }
 
+/*RESUME*/
+
+.resume {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*CONTACT*/
+
+.contact-section {
+    width: 100%;
+    min-height: 100vh;
+}
+
 /*MEDIA QUERY*/
 
 /* NAV BAR */
