@@ -266,7 +266,38 @@ h4 {
 .contact-section {
     width: 100%;
     min-height: 100vh;
+    display: block;
+    position: relative;
 }
+
+.contact-container {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 15%;
+    border: 1px solid #273e47;
+}
+
+#name {
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    padding: 10px 20px;
+    box-shadow:0 0 10px 4px white;
+    border-radius: 10px;
+}
+
+#email {
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    padding: 10px 20px;
+    box-shadow:0 0 10px 4px rgba(197, 195, 195, 0.4); 
+    border-radius: 10px;
+}
+
+
 
 /*MEDIA QUERY*/
 
