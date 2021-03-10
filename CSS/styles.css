@@ -197,11 +197,15 @@ h1 {
 }
 
 .django {
-    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #2f4f5c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
 }
 
 .selenium {
-    background-image: url("/images/projects/apartment-hunt.jpg");
+    background-image: url("/images/projects/selenium.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -218,6 +222,44 @@ h1 {
     width: 100%;
     min-height: 100vh;
 }
+
+.resume-container {
+    min-height: 100vh;
+    margin: 50px;
+    position: relative;
+}
+
+.resume-title h4{
+    position: absolute;
+    left: 37%;
+    top: 3%;
+    padding: 20px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    color: #273e47;
+}
+
+.resume-title .resume-subtext {
+    position: absolute;
+    top: 10%;
+    padding: 60px;
+}
+
+.resume-subtext {
+    color: #273e47;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    text-align-last: center;
+}
+
+
 
 /*CONTACT*/
 
