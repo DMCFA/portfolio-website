@@ -14,6 +14,8 @@ body {
     background-color: azure;
 }
 
+/*BUTTON*/
+
 .top-btn {
     background-image: url(/icons/up_arrow.svg);
     background-color: azure;
@@ -283,7 +285,7 @@ h4 {
 
 .contact-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 77vh;
     display: block;
     position: relative;
 }
@@ -389,6 +391,67 @@ h4 {
     letter-spacing: 0.05rem;
 }
 
+/*FOOTER*/
+
+.footer-container {
+    min-height: 23vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.footer-container h3 {
+    align-self: center;
+    color: #273e47;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.footer-container p {
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #273e47;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 0.05rem;
+}
+
+.social-links {
+    align-self: center;
+}
+
+.fa {
+    margin: 13px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 4px 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: white;
+}
 
 /*MEDIA QUERY*/
 
