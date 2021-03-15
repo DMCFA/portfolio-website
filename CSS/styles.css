@@ -294,7 +294,7 @@ h1 {
 .resume-title h4{
     position: absolute;
     left: 37%;
-    top: 3%;
+    top: 1%;
     padding: 20px;
 }
 
@@ -309,8 +309,8 @@ h4 {
 
 .resume-title .resume-subtext {
     position: absolute;
-    top: 10%;
-    padding: 60px;
+    top: 8%; 
+    padding: 60px;  
 }
 
 .resume-subtext {
@@ -322,6 +322,35 @@ h4 {
     text-align-last: center;
 }
 
+.main-container {
+
+}
+
+.left-container {
+    position: absolute;
+    width: 40%;
+    left: 5%;
+    top: 28%;
+}
+
+.right-container {
+    position: absolute;
+    width: 40%;
+    right: 5%;
+    top: 28%;
+}
+
+.resume-subtitle {
+    font-size: 1rem;
+}
+
+.resume-item {
+    font-size: 0.6rem;
+}
+
+.resume-item h4 {
+    font-size: 0.6rem;
+}
 
 
 /*CONTACT*/
