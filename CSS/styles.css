@@ -228,14 +228,46 @@ h1 {
     border: 10px solid #273e47;
     border-radius: 4%;
     margin: 25px;
-}
-
-.django {
     text-align: center;
     text-decoration: none;
     color: #2f4f5c;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
+}
+
+.django-web {
+    background-image: url("/images/projects/django-web.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flask {
+    background-image: url("/images/projects/flask.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.node {
+    background-image: url("/images/projects/nodejs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sql {
+    background-image: url("/images/projects/mysql.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.django {
+    background-image: url("/images/projects/django-web.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .selenium {
@@ -243,11 +275,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: center;
-    text-decoration: none;
-    color: #2f4f5c;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    background-position-y: top;
 }
 
 /*RESUME*/
