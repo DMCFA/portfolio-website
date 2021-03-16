@@ -287,14 +287,13 @@ h1 {
 
 .resume-container {
     min-height: 100vh;
-    margin: 50px;
+    margin: 30px;
     position: relative;
 }
 
 .resume-title h4{
     position: absolute;
     left: 37%;
-    top: 1%;
     padding: 20px;
 }
 
@@ -309,7 +308,7 @@ h4 {
 
 .resume-title .resume-subtext {
     position: absolute;
-    top: 8%; 
+    top: 5%; 
     padding: 60px;  
 }
 
@@ -323,35 +322,72 @@ h4 {
 }
 
 .main-container {
-
+    color: #273e47;
 }
 
 .left-container {
     position: absolute;
     width: 40%;
     left: 5%;
-    top: 28%;
+    top: 27%;
 }
 
 .right-container {
     position: absolute;
     width: 40%;
     right: 5%;
-    top: 28%;
+    top: 27%;
 }
 
 .resume-subtitle {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
 
-.resume-item {
-    font-size: 0.6rem;
+.resume-subtitle-work {
+    font-size: 0.7rem;
+    font-weight: 600;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .resume-item h4 {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.resume-item h5 {
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+
+.resume-item p {
+    font-size: 0.5rem;
+    padding: 5px 0px;
+}
+
+.resume-item li {
+    font-size: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.resume-item li a {
+    text-decoration: none;
+}
+
+.resume-item li a:hover {
     font-size: 0.6rem;
 }
 
+.resume-item li a:visited {
+    color: #273e47;
+}
 
 /*CONTACT*/
 
@@ -677,19 +713,5 @@ h4 {
     justify-items: center;
 }
 
-.django {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-}
-
-.flask {
-    grid-column: 2/2;
-    grid-row: 1/3;
-}
-
-.node {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
 
 };
