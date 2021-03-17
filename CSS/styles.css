@@ -342,6 +342,7 @@ h4 {
 .resume-subtitle {
     font-size: 0.8rem;
     font-weight: 600;
+    opacity: 0.8;
     padding-bottom: 5px;
 }
 
@@ -647,6 +648,101 @@ h4 {
     }
 }
 
+@media screen and (max-width: 1215px) {
+    .resume-container {
+        margin: 10px;
+    }
+
+    #resume-title {
+        font-size: 50px;
+    }
+
+    .resume-subtext {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+    }
+
+    .left-container{
+        top: 24%;
+    }
+
+    .right-container{
+        top: 24%;
+    }
+
+    .resume-subtitle {
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+
+    .resume-subtitle-work {
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+
+    .resume-item h4 {
+        font-size: 12px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .resume-item h5 {
+        font-size: 12px;
+    }
+
+    .resume-item p {
+        font-size: 13px;
+        opacity: 0.8;
+        padding: 3px 0px;
+    }
+
+    .resume-item li {
+        font-size: 13px;
+        opacity: 0.8;
+        padding: 3px 0px;
+    }
+
+@media screen and (max-width: 1100px){
+
+    #resume-title {
+        font-size: 35px;
+    }
+
+    .resume-subtext {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .resume-item p {
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+
+    .resume-item li {
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+
+@media screen and (max-width: 933px){
+
+    .resume-title .resume-subtext {
+        padding: 50px;  
+    }
+
+    .resume-item p {
+        font-size: 10px;
+        padding: 2px 0px;
+    }
+
+    .resume-item li {
+        font-size: 10px;
+        padding: 2px 0px;
+    }
+
+/*WELCOME SECTION*/
+
 @media screen and (max-width: 900px){
     .main-picture {
         display: none;
@@ -703,15 +799,67 @@ h4 {
 
 /* PROJECTS */
 
-.projects-container {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    column-gap: 10px;
-    row-gap: 15px;
-    justify-items: center;
-}
+    .projects-container {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 10px;
+        row-gap: 15px;
+        justify-items: center;
+    }
 
+/*RESUME*/
 
-};
+@media screen and (max-width: 625px){
+
+    #resume-title {
+        font-size: 25px;
+    }
+
+    p.resume-subtext {
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .left-container{
+        top: 22%;
+    }
+
+    .right-container{
+        top: 22%;
+    }
+
+    .resume-subtitle {
+        font-size: 10px;
+        padding-bottom: 2px;
+    }
+
+    .resume-subtitle-work {
+        font-size: 10px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+
+    .resume-item h4 {
+        font-size: 10px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .resume-item h5 {
+        font-size: 8px;
+    }
+
+    .resume-item p {
+        font-size: 10.5px;
+        opacity: 0.8;
+        padding: 2px 0px;
+    }
+
+    .resume-item li {
+        font-size: 10.5px;
+        opacity: 0.8;
+        padding: 2px 0px;
+    }
+}}}}};
