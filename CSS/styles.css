@@ -627,6 +627,22 @@ h4 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/*CONTACT FORM*/
+
+@media screen and (max-width: 1520px) {
+    .contact-section {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+        align-content: space-around;
+    }
+
+    .contact-container {
+        flex: auto;
+        align-self: center;
+    }
+}
+
 /* WELCOME PAGE */
 
 @media screen and (max-width: 1350px){
