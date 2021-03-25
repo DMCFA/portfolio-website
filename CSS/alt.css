@@ -85,8 +85,10 @@ nav {
 
 .welcome-bg {
   min-height: 92vh;
+  min-width: auto;
   opacity: 0.8;
   display: flex;
+  flex-flow: column wrap;
 }
 
 h1 {
@@ -95,26 +97,17 @@ h1 {
   font-size: 3.6rem;
   font-weight: bolder;
   letter-spacing: 0.3rem;
-  position: absolute;
-  top: 26%;
-  left: 17%;
 }
 
 .sub-header {
   color: #273e47;
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
-  position: absolute;
-  top: 30%;
-  left: 20%;
   margin-top: 8%;
   padding: 50px;
 }
 
 .main-picture {
-  position: absolute;
-  top: 14%;
-  right: 18%;
   border: 2rem;
 }
 
