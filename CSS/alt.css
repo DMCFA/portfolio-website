@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: azure;
+}
+
+/*BUTTON*/
+
+.top-btn {
+  background-image: url(/icons/up_arrow.svg);
+  background-color: azure;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: #2f4f5c;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2.5px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/*WELCOME*/
+
+.welcome-bg {
+  min-height: 92vh;
+  opacity: 0.8;
+  display: flex;
+}
+
+h1 {
+  color: #273e47;
+  font-family: sans-serif;
+  font-size: 3.6rem;
+  font-weight: bolder;
+  letter-spacing: 0.3rem;
+  position: absolute;
+  top: 26%;
+  left: 17%;
+}
+
+.sub-header {
+  color: #273e47;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  margin-top: 8%;
+  padding: 50px;
+}
+
+.main-picture {
+  position: absolute;
+  top: 14%;
+  right: 18%;
+  border: 2rem;
+}
+
+.welcome-pic {
+  width: 380px;
+  height: auto;
+  opacity: 0.9;
+  border-radius: 15%;
+}
