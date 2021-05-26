@@ -17,13 +17,13 @@ body {
 /*BUTTON*/
 
 .top-btn {
-  background-image: url(/icons/up_arrow.svg);
+  background-image: url(/icons/up-arrow-new.svg);
   background-color: azure;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   bottom: 50px;
   right: 50px;
