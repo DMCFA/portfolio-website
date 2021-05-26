@@ -21,7 +21,7 @@ const navSlide = () => {
       // animate navlinks
       navLinks.forEach(setStyleLink);
       // burger animation
-      burger.classList.toggle('toggle');
+      // burger.classList.toggle('toggle');
     });
   }
   
