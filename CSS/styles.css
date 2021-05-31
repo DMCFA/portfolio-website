@@ -21,6 +21,14 @@ a:visited {
   text-decoration: none;
 }
 
+button {
+  overflow: visible;
+}
+
+textarea {
+  overflow: auto;
+}
+
 /*BUTTON*/
 
 .top-btn {
@@ -104,7 +112,6 @@ nav {
 h1,
 .welcome-header {
   color: #273e47;
-  font-family: sans-serif;
   font-size: 5.2rem;
   font-weight: bolder;
   letter-spacing: 0.3rem;
@@ -114,7 +121,7 @@ h1,
   color: #273e47;
   font-size: 2.9rem;
   letter-spacing: 0.2rem;
-  padding: 80px;
+  padding: 5rem;
 }
 
 .welcome-picture-container {
@@ -402,114 +409,103 @@ h5 {
 /*CONTACT*/
 
 .contact-section {
-  width: 100%;
   min-height: 77vh;
-  display: block;
-  position: relative;
+  padding: 4.2vh 0 7vh 0;
+  text-align: center;
 }
-
 .contact-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
+  text-align: center;
 }
 
 .contact-title h2 {
   color: #273e47;
   letter-spacing: 0.3rem;
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   opacity: 0.8;
+  margin-bottom: 2.7vh;
+  text-align: center;
 }
 
-.contact-container {
-  width: 45%;
-  height: auto;
-  position: absolute;
-  left: 28%;
-  top: 15%;
-  border: 4px solid #273e47;
-  opacity: 0.8;
-  border-radius: 25px;
-  display: block;
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 45vw;
+  max-height: 60vh;
+  border: 0.3rem solid #273e47;
 }
 
-#name {
-  width: 270px;
-  height: 40px;
-  margin: 40px 0px;
-  margin-left: 40px;
-  padding: 10px 20px;
-  border: 2px solid #273e47;
-  border-radius: 12px;
-  outline: none;
-}
-
-#name::placeholder {
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.1rem;
-}
-
+#name,
 #email {
-  width: 270px;
-  height: 40px;
-  margin: 40px 0px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 10px 20px;
-  border: 2px solid #273e47;
-  border-radius: 12px;
-  outline: none;
+  width: 14vw;
+  height: 5.5vh;
+  margin: 5vh 1.5vw;
+  align-self: center;
+  padding: 1.3vh 3vw;
+  border-bottom: 0.1rem solid #273e47;
+  background-color: azure;
 }
 
-#email::placeholder {
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.1rem;
-}
-
-#subject {
-  width: 590px;
-  height: 40px;
-  margin: 0px 40px;
-  padding: 10px 20px;
-  border: 2px solid #273e47;
-  border-radius: 12px;
-  outline: none;
-}
-
-#subject::placeholder {
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.1rem;
+#subject,
+#message {
+  width: 31vw;
+  height: 5vh;
+  align-self: center;
+  padding: 1.3vh 3vw;
+  margin-top: 2vh;
+  border-bottom: 0.1rem solid #273e47;
+  background-color: azure;
 }
 
 #message {
-  width: 590px;
-  margin-top: 40px;
-  margin-left: 40px;
-  padding: 10px 20px;
-  border: 2px solid #273e47;
-  border-radius: 12px;
-  outline: none;
+  height: auto;
+  margin-bottom: 3vh;
 }
 
-#submit-btn {
-  width: 120px;
-  height: 40px;
-  position: inherit;
-  margin: 0px 280px;
-  margin-top: 30px;
-  margin-bottom: 45px;
-  border: 2px solid #273e47;
-  border-radius: 5px;
+#name::placeholder,
+#email::placeholder,
+#subject::placeholder,
+#message::placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
   outline: none;
-  cursor: pointer;
+  padding: 0 0 0.875em 0;
+}
+
+textarea {
+  line-height: 150%;
+  height: 15vh;
+  resize: none;
+  width: 100%;
+}
+
+.contact-btn {
+  background: none;
+  width: 31vw;
+  margin-bottom: 3vh;
+  align-self: center;
+  border: 0.1rem solid #474544;
   color: #273e47;
-  font-weight: 600;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.05rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  outline: none;
+  padding: 1.2rem 1rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  background: #474544;
+  color: #f2f3eb;
 }
 
 /*FOOTER*/
@@ -524,17 +520,16 @@ h5 {
 .footer-container h3 {
   align-self: center;
   color: #273e47;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.05rem;
 }
 
 .footer-container p {
   align-self: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 0.25vh 0;
   color: #273e47;
-  font-size: 13px;
+  font-size: 0.8rem;
   font-style: italic;
   text-align: center;
   word-spacing: 0.05rem;
@@ -546,10 +541,10 @@ h5 {
 
 .fa {
   margin: 13px;
-  font-size: 30px;
-  width: 40px;
-  height: 40px;
-  padding: 4px 0px;
+  font-size: 1.9rem;
+  width: 2.6vw;
+  height: 5.5vh;
+  padding: 0.6vh 0;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -574,7 +569,7 @@ h5 {
   color: white;
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERIES*/
 
 /* NAV BAR */
 
@@ -645,32 +640,55 @@ h5 {
   }
   .welcome-picture {
     margin-top: 12vh;
-    width: 26vw;
+    max-width: 26vw;
   }
 }
 
-@media screen and (max-width: 930px) {
-  .welcome-picture {
-    display: none;
+@media screen and (max-width: 1000px) {
+  .welcome-picture-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    right: 10%;
+    top: 2%;
   }
 
   .welcome-container {
-    align-items: center;
+    margin-top: 45%;
     text-align: center;
-    padding: 45px 0px;
+    margin-left: 7%;
+  }
+
+  .welcome-header,
+  .welcome-sub-title {
+    padding: 1rem;
+  }
+
+  .welcome-header {
+    font-size: 3rem;
+  }
+
+  .welcome-sub-title {
+    font-size: 1.8rem;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .welcome-header,
-  .welcome-sub-title {
-    margin-top: 10vh;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
+@media screen and (max-width: 800px) {
+  .welcome-picture-container {
+    top: 12%;
   }
-  .welcome-sub-title {
-    font-size: 2rem;
+  .welcome-header {
+    margin-top: 18%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-picture-container {
+    top: 10%;
+  }
+  .welcome-header {
+    margin-top: 30%;
   }
 }
 
@@ -689,11 +707,12 @@ h5 {
   .about-title,
   .about-sub-title {
     font-size: 1.5rem;
-    padding: 30px 0px;
+    padding: 4vh 0;
   }
 
   .about-text {
     text-align: left;
+    font-size: 0.7rem;
     line-height: 2rem;
   }
 }
@@ -813,24 +832,16 @@ h5 {
   .resume-project-link:active h4 {
     font-size: 1.1rem;
   }
+}
 
-  /*CONTACT FORM*/
+/*CONTACT FORM*/
 
-  @media screen and (max-width: 1520px) {
-    .contact {
-      min-height: 100vh;
-    }
-
-    .contact-title {
-      align-items: center;
-    }
-
-    .contact-container {
-      width: fit-content;
-      display: flex;
-      flex-flow: column wrap;
-      align-items: flex-start;
-      left: 0;
-    }
+@media screen and (max-width: 1015px) {
+  #name::placeholder,
+  #email::placeholder,
+  #subject::placeholder,
+  #message::placeholder {
+    font-size: 1.5vw;
+    letter-spacing: 0;
   }
 }
