@@ -435,6 +435,7 @@ h5 {
   max-width: 45vw;
   max-height: 60vh;
   border: 0.3rem solid #273e47;
+  border-radius: 1.5rem;
 }
 
 #name,
@@ -489,7 +490,7 @@ textarea {
 .contact-btn {
   background: none;
   width: 31vw;
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
   align-self: center;
   border: 0.1rem solid #474544;
   color: #273e47;
@@ -519,7 +520,6 @@ textarea {
 
 .footer-container h3 {
   align-self: center;
-  color: #273e47;
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.05rem;
@@ -528,7 +528,6 @@ textarea {
 .footer-container p {
   align-self: center;
   padding: 0.25vh 0;
-  color: #273e47;
   font-size: 0.8rem;
   font-style: italic;
   text-align: center;
@@ -552,21 +551,6 @@ textarea {
 
 .fa:hover {
   opacity: 0.7;
-}
-
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-
-.fa-github {
-  background: #333;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #0e76a8;
-  color: white;
 }
 
 /*MEDIA QUERIES*/
