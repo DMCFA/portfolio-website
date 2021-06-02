@@ -166,24 +166,26 @@
             <h2>Get in Touch 📧</h2>
         </div>
         <div class="contact-container">
-            <form action="" method="POST">
+            <form name="contact" action method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <div class="contact-form">
 
                     <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <input type="text" id="name" name="name" placeholder="Your name" required> 
 
                     <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Your email">
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
               
                 </div>
 
                 <label for="subject"></label>
-                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
 
                 <label for="message"></label>
                 <textarea name="message" id="message" cols="30" rows="5" placeholder="Please leave your message here" required></textarea>
-
-                <button type="submit" class="contact-btn">Send Message</button>
+                
+                <div data-netlify-recaptcha="true"></div>
+                
+                <button type="submit" name="submit" class="contact-btn">Send Message</button>
 
             </form>
         </div>
