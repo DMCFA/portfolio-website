@@ -564,6 +564,9 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -576,9 +579,8 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 40%;
     transform: translateX(100%);
-    transition: transform 0.5s ease-in;
     z-index: 9999;
   }
   .nav-links li {
@@ -590,6 +592,7 @@ textarea {
 }
 
 .nav-active {
+  transition: transform 0.5s ease-in;
   transform: translateX(0%);
 }
 
