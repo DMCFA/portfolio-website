@@ -838,11 +838,27 @@ textarea {
 /*CONTACT FORM*/
 
 @media screen and (max-width: 1015px) {
+  .contact-container form {
+    max-width: 80%;
+  }
+
+  #name, #email {
+    width: 35%;
+  }
+
+  #subject, #message {
+    width: 70%;
+  }
+
+  #message {
+    height: 10vh;
+  }
+
   #name::placeholder,
   #email::placeholder,
   #subject::placeholder,
   #message::placeholder {
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     letter-spacing: 0;
   }
 }
