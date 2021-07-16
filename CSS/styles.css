@@ -625,8 +625,8 @@ textarea {
     margin-top: 30vh;
   }
   .welcome-picture {
-    margin-top: 12vh;
-    max-width: 26vw;
+    margin-top: 11vh;
+    max-width: 28vw;
   }
 }
 
@@ -637,7 +637,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    right: 10%;
+    right: 9%;
     top: 2%;
   }
 
@@ -662,25 +662,23 @@ textarea {
 }
 
 @media screen and (max-width: 800px) {
+  .welcome-picture {
+    position: absolute;
+    right: 55%;
+  }
   
   .welcome-container {
     margin-left: auto;
   }
 
-  .welcome-picture-container {
-    top: 12%;
-  }
   .welcome-header {
     margin-top: 18%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .welcome-picture-container {
-    top: 10%;
-  }
   .welcome-header {
-    margin-top: 30%;
+    margin-top: 35%;
   }
 }
 
@@ -694,6 +692,7 @@ textarea {
   .about-me-container {
     text-align: center;
     margin: auto;
+    margin-top: 8vh;
   }
 
   .about-title,
@@ -703,7 +702,8 @@ textarea {
   }
 
   .about-text {
-    text-align: left;
+    margin: 5%;
+    text-align: justify;
     font-size: 0.7rem;
     line-height: 2rem;
   }
@@ -785,7 +785,8 @@ textarea {
 
 @media screen and (max-width: 975px) {
   .resume-container {
-    margin: 2.5vw 0;
+    margin: 3vh 0;
+    margin-right: auto;
   }
 
   .resume-title-container {
