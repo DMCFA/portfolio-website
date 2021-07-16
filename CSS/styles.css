@@ -793,6 +793,10 @@ textarea {
     padding-top: 1vh;
   }
 
+  .resume-main-container {
+    column-gap: 0.5vh;
+  }
+
   .resume-work-summary p,
   .resume-education p,
   .resume-right-container li,
