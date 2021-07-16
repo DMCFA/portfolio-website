@@ -564,12 +564,10 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  html {
+  .mobile {
     overflow-x: hidden;
   }
-  body {
-    overflow-x: hidden;
-  }
+
   .nav-links {
     position: absolute;
     right: 0px;
