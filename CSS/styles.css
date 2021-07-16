@@ -565,7 +565,6 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .mobile {
-    position: relative;
     overflow-x: hidden;
   }
 
