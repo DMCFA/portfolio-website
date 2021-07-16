@@ -785,6 +785,14 @@ textarea {
 }
 
 @media screen and (max-width: 975px) {
+  .resume-container {
+    margin: 2.5vw 0;
+  }
+
+  .resume-title-container {
+    padding-top: 1vh;
+  }
+
   .resume-work-summary p,
   .resume-education p,
   .resume-right-container li,
