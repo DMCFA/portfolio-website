@@ -632,6 +632,7 @@ textarea {
 }
 
 @media screen and (max-width: 1000px) {
+  
   .welcome-picture-container {
     display: block;
     margin-left: auto;
@@ -662,6 +663,11 @@ textarea {
 }
 
 @media screen and (max-width: 800px) {
+  
+  .welcome-container {
+    margin-left: auto;
+  }
+  
   .welcome-picture-container {
     top: 12%;
   }
