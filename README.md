@@ -1,3 +1,3 @@
 # portfolio-website
 
-Portfolio website created to showcase my projects and introduce myself.
+My first portfolio website @ https://portfolio-revert.netlify.app
